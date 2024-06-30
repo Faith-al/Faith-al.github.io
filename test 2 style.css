@@ -1,0 +1,80 @@
+<p{
+    color: maroon;
+}
+
+h1{
+  color: #513B2C;
+}
+a:hover {
+  background-color: white;
+}
+img.darker {
+  transition: all 0.2s ease-in-out;
+}
+
+img.darker:hover {
+  filter: brightness(50%);
+}
+
+body {
+    background-image: url(https://media.istockphoto.com/id/1454398546/photo/brick-wall-panoramic-texture-background-abstract-texture-for-designers.webp?b=1&s=170667a&w=0&k=20&c=NfQRSpAP7IwFa1d3qlC9JYvw2lHM5trgso4ZcnpWaXs=);
+}
+  
+ .box {
+  background-color: #ffc19c;
+  width: 1253px ;
+  height: 650px ;
+  padding: 5px;
+  margin: 20px;
+ 
+}
+
+img {
+  border-radius: 3%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #AC7A5C;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #6BA29C;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav-link:hover {
+  background-color: #8FA495;
+}
+.nav-link{
+    color: azure;
+    
+}
+
+.row.row-no-margin {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.col-no-padding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.card-text{
+    padding: 5px;
+}
+.card-title{
+    padding: 5px;
+}

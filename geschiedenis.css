@@ -1,0 +1,122 @@
+<p{
+    color: maroon;
+}
+
+h1{
+  color: #513B2C;
+}
+a:hover {
+  background-color: white;
+}
+
+geschiedenis {
+    color:saddlebrown
+}
+
+body {
+    background-image: url(https://media.istockphoto.com/id/1454398546/photo/brick-wall-panoramic-texture-background-abstract-texture-for-designers.webp?b=1&s=170667a&w=0&k=20&c=NfQRSpAP7IwFa1d3qlC9JYvw2lHM5trgso4ZcnpWaXs=);
+}
+  
+ .boxa {
+  background-color: #ffc19c;
+  width: 1253px ;
+  height: 1800px ;
+  padding: 5px;
+  margin: 20px;
+ 
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #AC7A5C;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #6BA29C;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav-link:hover {
+  background-color: #8FA495;
+}
+.nav-link{
+    color: azure;
+    
+}
+
+/* button*/
+
+
+
+.button {
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #06D85F;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 50%;
+  height: relative;
+  position: relative;
+  overflow: auto;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+
+@media screen and (max-width: 70px){
+  .box{
+    width: 50%;
+  }
+  .popup{
+    width: 50%;
+  }
+}
+    
+  
